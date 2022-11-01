@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    border: 2px solid grey;
+    padding: 30px;
+
+
+    
+    
+}
+.box {
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.box-wrap {
+    width: 45%;
+}
+.big-box {
+    width: 45%;
+
+}
+.box-small {
+    height:50px
+}
+.box-little {
+    width: 30%;
+height: 50px;
+}
+.littlewrap {
+    display: flex;
+    justify-content: space-between;
+}
+.row {
+    width: 100%;
+    max-width: 600px;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
